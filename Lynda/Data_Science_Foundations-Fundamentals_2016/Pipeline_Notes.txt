@@ -1,0 +1,29 @@
+Four stages of Data Science Projects
+1. Planning
+2. Data Preparation
+3. Modeling
+4. Follow-up
+
+Stage 1: Planning
+1. Define goals
+2. Organize resources
+3. Coordinate people
+4. Schedule Project
+
+Stage 2: Data Preparation
+1. Get data
+2. Clean data
+3. Explore data
+4. Refine data
+
+Stage 3: Modeling/Analysis
+1. Create model
+2. Validate model - is it accurate, is it general
+3. Evaluate model - test accuracy and robustness
+4. Refine model - tuning and implementability
+
+Stage 4: Follow-up
+1. Present the model
+2. Deploy model
+3. Revisit model
+4. Archive assets

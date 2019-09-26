@@ -1,0 +1,19 @@
+Metrics to define projects:
+1. Key Performance Indicators (KPIs)
+2. SMART Goals
+3. Classification accuracy
+
+Metric 1: KPIs
+1. Non-financial (finance is a goal, not a metric)
+2. Timely
+3. CEO Focus
+4. Simple
+5. Team-based
+6. Significant impact
+
+Metric 2: SMART
+1. S: Specific
+2. M: Measurable
+3. A: Assignable
+4. R: Realistic
+5. T: Time-bound
