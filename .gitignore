@@ -168,3 +168,5 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+.DS_Store
