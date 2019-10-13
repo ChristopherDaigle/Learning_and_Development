@@ -170,6 +170,7 @@ codegen/
 octave-workspace
 
 .DS_Store
+~/.DS_Store
 
 Udacity/IntroductionToMachineLearningProgram/Part4_UnsupervisedLearning/Project/Udacity_CUSTOMERS_Subset.csv
 Udacity/IntroductionToMachineLearningProgram/Part4_UnsupervisedLearning/Project/Udacity_AZDIAS_Subset.csv
