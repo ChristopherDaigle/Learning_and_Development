@@ -15,8 +15,6 @@ def parseOutText(f):
         text = parseOutText(f)
         
         """
-    import string
-
 
     f.seek(0)  ### go back to beginning of file (annoying)
     all_text = f.read()
@@ -28,6 +26,12 @@ def parseOutText(f):
         ### remove punctuation
         nopunc = [char for char in content[1] if char not in string.punctuation]
         text_string = ''.join(nopunc)
+        stemmer = SnowballStemmer("english")
+        stemmed = []
+#         for word in list(text_string):
+#             stemmed.append(stemmer.stem(word))
+        stemmed = [stemmer.stem(word) for word in text_string.split()]
+        text_string = ' '.join(stemmed)
 #         text_string = content[1].translate(str.maketrans("", ""), string.punctuation)
 
         ### project part 2: comment out the line below
