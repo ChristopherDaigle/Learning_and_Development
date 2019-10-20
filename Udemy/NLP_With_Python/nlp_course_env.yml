@@ -11,5 +11,8 @@ dependencies:
   - nltk=3.3.0
   - scikit-learn=0.20.1
   - jupyter=1.0.0
+  - pip
+  - pip:
+    - PyPDF2
 
 prefix: /Users/mbair/anaconda3/envs/nlp_course
