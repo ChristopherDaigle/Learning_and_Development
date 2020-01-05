@@ -34,5 +34,10 @@ age = 33
 
 # An example of Python being strongly typed:
 age_in_words = "2_years"
-print(name + " is " + age + " years old")
+# print(name + " is " + age + " years old")   # Error, let's address with an 'f-string'
+print(name + f" is {age} years old")
 print(type(age))
+
+print(f"Pi is approximately {22 / 7:12.50f}")
+pi = 22 / 7
+print(f"Pi is approximately {pi:12.50f}")
