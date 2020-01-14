@@ -16,13 +16,17 @@ print()
 #         print("Game Over")
 # print("Aren't you glad you got out of there!")
 # print()
-highest = 10
+highest = 1000
 answer = random.randint(1, highest)
-guess = int(input("Please guess a number between 1 and {}: ".format(highest)))
-if guess != answer:
+guess = 0   # initiaize to any number outside of the valid range
+print("Please guess a number between 1 and {}: ".format(highest))
+while guess != answer:
+    guess = int(input())
+    if guess == 0:
+        break
     if guess < answer:
-        guess = int(input("Please guess higher: "))
+        print("Please guess higher")
+    elif guess > answer:
+        print('Please guess lower')
     else:
-        guess = int(input("Please guess lower: "))
-else:
-    print("Well done! You've guessed it")
+        print("Well done! You've guessed it.")
