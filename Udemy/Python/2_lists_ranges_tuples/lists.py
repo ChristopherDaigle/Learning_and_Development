@@ -15,7 +15,7 @@ numbers = even + odd
 # numbers.sort()    # This creates a new variable of the sorted numbers
 print(sorted(numbers))  # This displays a sorted version of the number but doesnt make a new variable
 print(numbers)
-numbers_in_order = sorted(numbers)
+numbers_in_order = sorted(numbers)  # This assigns numbers_in_order to the ordered list of numbers
 print(numbers)
 print(numbers_in_order)
 
