@@ -27,8 +27,39 @@ while True:
     dict_key = input("Please enter a fruit: ")
     if dict_key == "quit":
         break
-    if dict_key in fruit:
-        description = fruit.get(dict_key)
-        print(description)
-    else:
-        print("We don't have a {} in fruit".format(dict_key))
+    description = fruit.get(dict_key, "We don't have a {} in fruit".format(dict_key))
+    print(description)
+    # if dict_key in fruit:
+    #     description = fruit.get(dict_key)
+    #     print(description)
+    # else:
+    #     print("We don't have a {} in fruit".format(dict_key))
+
+for snack in fruit:
+    print(fruit[snack])
+print()
+# ordered_keys = list(fruit.keys())
+# ordered_keys.sort()
+# ordered_keys = sorted(list(fruit.keys()))
+# for f in ordered_keys:
+#     print(f + " - " + fruit[f])
+for f in sorted(fruit.keys()):
+    print(f + " - " + fruit[f])
+print()
+# This method is less efficient than iterating through the keys and printing the values
+for val in fruit.values():
+    print(val)
+print()
+# More efficient
+for key in fruit:
+    print(fruit[key])
+print()
+# "View objects"
+print(fruit.keys())
+print(fruit.values())
+
+# Assigning the keys to a variable:
+fruit_keys = fruit.keys()
+print(fruit_keys)
+fruit["tomato"] = "not nice with ice cream"
+print(fruit_keys)
